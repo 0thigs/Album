@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Álbum Digital Vintage
 
-## Getting Started
+Um aplicativo web que permite criar e visualizar álbuns de fotos digitais com uma interface que simula um álbum físico vintage.
 
-First, run the development server:
+## Sobre o Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este é um aplicativo SaaS (Software as a Service) que oferece uma experiência única para armazenar e visualizar suas memórias digitais. Diferente das galerias de fotos tradicionais, nosso álbum digital recria a experiência nostálgica de folhear um álbum físico vintage.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Características
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Interface que simula um álbum físico real
+- Animação realista de virar páginas
+- Suporte para fotos de qualquer fonte (URLs locais ou externas)
+- Layout vintage com 4 fotos por spread
+- Efeitos visuais que simulam fotos antigas
+- Design responsivo que se adapta a qualquer tela
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Funcionalidades Planejadas
 
-## Learn More
+- Upload de fotos
+- Múltiplos álbuns por usuário
+- Personalização de capas e layouts
+- Compartilhamento de álbuns
+- Adição de legendas e datas nas fotos
+- Temas e estilos diferentes de álbuns
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologias
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Como Usar
 
-## Deploy on Vercel
+1. Faça upload de suas fotos ou forneça URLs de imagens
+2. As fotos serão automaticamente organizadas em um layout vintage
+3. Navegue pelo álbum usando as setas ou gestos de toque
+4. Compartilhe seu álbum com amigos e família
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Objetivo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Nosso objetivo é trazer de volta a experiência especial de folhear um álbum de fotos físico para a era digital, combinando nostalgia com a conveniência da tecnologia moderna.
